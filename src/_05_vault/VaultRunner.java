@@ -3,8 +3,10 @@ package _05_vault;
 public class VaultRunner {
 
 	public static void main(String[] args) {
-		Vault vault = new Vault();
-		vault.Code(12345);
+		vault vault = new vault();
+		JamesBond bond = new JamesBond();
+		int i = bond.findCode(vault);
+		System.out.println(i);
 
 	}
 
